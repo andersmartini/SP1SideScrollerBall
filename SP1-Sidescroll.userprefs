@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Sidescroll/Scripts/Enemy.cs">
+    <Files>
+      <File FileName="Assets/Sidescroll/Scripts/Enemy.cs" Line="38" Column="22" />
+      <File FileName="Assets/Sidescroll/Scripts/PlayerVariables.cs" Line="65" Column="73" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
