@@ -39,11 +39,15 @@ public class PlatformInputs : MonoBehaviour {
 		// Vi borde förflytta spelaren via funktionen Translate som finns under dess transform. Här bör horizontalDirection, speed och Time.deltaTime användas
 		gameObject.transform.Translate(horizontalDirection*speed*Time.deltaTime,0,0);
 
-	}
 
+
+	}
+	void OnTriggerColliderStay(GameObject other){
+		if(other){}
+	}
 	void Flip (int facingRight) {
 		Vector3 myScale = transform.localScale;
-		myScale.x = 1f; // Vrider sig inte karaktären efter det vi har skickat med till Flip-funktionen?
+		myScale.x = facingRight; // Vrider sig inte karaktären efter det vi har skickat med till Flip-funktionen?
 		transform.localScale = myScale;
 	}
 }

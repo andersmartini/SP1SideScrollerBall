@@ -47,12 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Sidescroll\Scripts\BackgroundParallax.cs" />
+     <Compile Include="Assets\Sidescroll\Scripts\BallScript.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Coin.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Death.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Elevator.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Enemy.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Exit.cs" />
+     <Compile Include="Assets\Sidescroll\Scripts\IHittableObject.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\KillEnemy.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Pauser.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\PlatformInputs.cs" />
@@ -60,6 +62,7 @@
      <Compile Include="Assets\Sidescroll\Scripts\Rotate.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Sign.cs" />
      <Compile Include="Assets\Sidescroll\Scripts\Speedup.cs" />
+     <Compile Include="Assets\TossCoinScript.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Sidescroll\Sprites\license.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
