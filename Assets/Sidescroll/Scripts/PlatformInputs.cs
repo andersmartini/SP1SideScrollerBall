@@ -4,9 +4,9 @@ using System.Collections;
 public class PlatformInputs : MonoBehaviour {
 
 	Rigidbody2D rigidBody;
-	public float speed = 10f;
-	public float jumpHeight = 14f;
-
+	public float speed;
+	public float jumpHeight;
+	public string playerNumber;
 	private Transform groundCheck;
 	private bool grounded = false;
 
@@ -20,7 +20,7 @@ public class PlatformInputs : MonoBehaviour {
 	}
 
 	void Update () {
-		horizontalDirection = Input.GetAxis ("Horizontal"); // Det finns en klass som heter Input, den har en funktion som heter GetAxis - Det finns också en string som heter Horizontal som GetAxis tar.
+		horizontalDirection = Input.GetAxis ("Horizontal"+playerNumber); // Det finns en klass som heter Input, den har en funktion som heter GetAxis - Det finns också en string som heter Horizontal som GetAxis tar.
 
 		grounded = Physics2D.OverlapPoint(groundCheck.position);
 

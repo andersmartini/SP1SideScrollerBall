@@ -6087,7 +6087,6 @@ GameObject:
   - 4: {fileID: 486904152}
   - 212: {fileID: 486904151}
   - 114: {fileID: 486904150}
-  - 114: {fileID: 486904149}
   - 58: {fileID: 486904148}
   m_Layer: 0
   m_Name: Bouncer (1)
@@ -6109,17 +6108,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .234999999
---- !u!114 &486904149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 486904147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2257608c5026d94f84a98feb2c9557a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &486904150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12730,7 +12718,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1645431536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.0599995, y: -.600000024, z: 0}
+  m_LocalPosition: {x: -17.1900005, y: 6.30000019, z: 0}
   m_LocalScale: {x: 1, y: 1.04999876, z: 1}
   m_Children:
   - {fileID: 74752581}
@@ -15242,7 +15230,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2040483896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.60000002, y: 0, z: -20.3999996}
+  m_LocalPosition: {x: 1.74000001, y: 8.60000038, z: -19.1900005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15387,7 +15375,6 @@ GameObject:
   - 4: {fileID: 2065426862}
   - 212: {fileID: 2065426861}
   - 114: {fileID: 2065426860}
-  - 114: {fileID: 2065426859}
   - 58: {fileID: 2065426858}
   m_Layer: 0
   m_Name: Bouncer (2)
@@ -15409,17 +15396,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .234999999
---- !u!114 &2065426859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2065426857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2257608c5026d94f84a98feb2c9557a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2065426860
 MonoBehaviour:
   m_ObjectHideFlags: 0

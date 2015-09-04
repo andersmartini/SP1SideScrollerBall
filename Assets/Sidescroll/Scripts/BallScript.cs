@@ -4,7 +4,7 @@ using System.Collections;
 public class BallScript : MonoBehaviour {
 	Vector2 startPos;
 	float speed;
-
+	int touchedLastId;
 	Vector2 velocity; 
 
 
@@ -16,17 +16,27 @@ public class BallScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+	}
 
-	/*	IEnumerator OnTriggerEnter2D (Collider2D other) {
-			if(other.CompareTag("Finnish")){
-				this.Respawn();
+
+
+
+	void OnTriggerEnter2D (Collider2D other) {
+		if(other.CompareTag("Player")){
+			touchedLastId = other.gameObject.GetInstanceID();
+		}else if(other.CompareTag("Finish")){
+			GameObject[] players = FindObjectOfType(PlayerVariables);
+			foreach(player in players){
+				if(pla)
 			}
-		}*/
-		}
 
+
+		}
+	}
 	public void Respawn () {
 		transform.position=startPos;
-		GetComponent<Rigidbody2D>().velocity = new Vector2(0f,5f);
-		transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
+		GetComponent<Rigidbody2D>().velocity = new Vector2(0f,10f);
+		GetComponent<Rigidbody2D>().angularVelocity = 0f;
+		//transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
 	}
 }

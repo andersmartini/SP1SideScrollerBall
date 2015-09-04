@@ -1,25 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Sidescroll/Scripts/Coin.cs">
     <Files>
-      <File FileName="Assets/Sidescroll/Scripts/PlatformInputs.cs" Line="29" Column="25" />
-      <File FileName="Assets/Sidescroll/Scripts/Coin.cs" Line="16" Column="2" />
-      <File FileName="Assets/Sidescroll/Scripts/BallScript.cs" Line="17" Column="22" />
-      <File FileName="Assets/Sidescroll/Scripts/IHittableObject.cs" Line="13" Column="3" />
-      <File FileName="Assets/Sidescroll/Scripts/Exit.cs" Line="10" Column="1" />
+      <File FileName="Assets/Sidescroll/Scripts/PlatformInputs.cs" Line="54" Column="1" />
+      <File FileName="Assets/Sidescroll/Scripts/Coin.cs" Line="17" Column="1" />
+      <File FileName="Assets/Sidescroll/Scripts/IHittableObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Sidescroll/Scripts/Exit.cs" Line="14" Column="1" />
       <File FileName="Assets/Sidescroll/Scripts/PlayerVariables.cs" Line="10" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Sidescroll" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Coin.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />

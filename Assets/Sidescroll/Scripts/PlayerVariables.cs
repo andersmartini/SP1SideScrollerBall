@@ -10,7 +10,6 @@ public class PlayerVariables : MonoBehaviour {
 	public int coins = 0;
 	public bool hasSpeedUp;
 	private float damageTimer = 1f;
-
 	private Slider healthSlider;
 	private Text coinUI;
 	private Vector3 startPos;
